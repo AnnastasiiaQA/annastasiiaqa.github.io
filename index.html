@@ -1,1 +1,180 @@
-Lovely paws
+Ось адаптивна HTML сторінка для зоомагазину українською мовою на основі вашого коду:
+
+```html
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bpg-mrgvlovani-caps.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Зоомагазин</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://backoffice.algoritmika.org/uploads/2021/02/logo_0_1613139341.png" height="50px"/>
+        <nav>
+            <a href="">Головна</a>
+            <a href="#catalog">Магазин</a>
+            <a href="">Тварини</a>
+            <a href="">Їжа</a>
+            <a href="">Відео</a>
+            <a href="#principles">Догляд</a>
+            <a href="">Партнери</a>
+            <a href="">Контакти</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Слайдер -->
+        <div class="center slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://backoffice.algoritmika.org/uploads/2021/02/cute-3269715_1920_0_1613139970.jpg" style="width:100%">
+                <div class="text">Підпис 1</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://backoffice.algoritmika.org/uploads/2021/02/cute-3269715_1920_0_1613139970.jpg" style="width:100%">
+                <div class="text">Підпис 2</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://backoffice.algoritmika.org/uploads/2021/02/cute-3269715_1920_0_1613139970.jpg" style="width:100%">
+                <div class="text">Підпис 3</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <!-- Слайдер -->
+        <section class="center">
+            <article>
+                <h2>Магазин</h2>
+            </article>
+        </section>
+        <section class="center catalog">
+            <article class="product">
+                <div class="productimg">
+                    <img src="images/1.jpg" height="100px"/>
+                </div>
+                <br/>
+                <div class="catalogtext">
+                    <a href="">Profine для собак з куркою, 1кг</a>
+                </div>
+                <div class="price">
+                    <a href="">Ціна: 14.5₾</a>
+                </div>
+            </article>
+            <article class="product">
+                <div class="productimg">
+                    <img src="images/2.png" height="100px"/>
+                </div>
+                <br/>
+                <div class="catalogtext">
+                    <a href="">Котячий наповнювач Van Cat з ароматом моря, 5кг</a>
+                </div>
+                <div class="price">
+                    <a href="">Ціна: 14₾</a>
+                </div>
+            </article>
+            <article class="product">
+                <div class="productimg">
+                    <img src="images/3.png" height="100px"/>
+                </div>
+                <br/>
+                <div class="catalogtext">
+                    <a href="">Pro Plan для котів з індичкою, 2кг</a>
+                </div>
+                <div class="price">
+                    <a href="">Ціна: 45₾</a>
+                </div>
+            </article>
+            <article class="product">
+                <div class="productimg">
+                    <img src="images/4.jpg" height="100px"/>
+                </div>
+                <br/>
+                <div class="catalogtext">
+                    <a href="">Шампунь для цуценят і кошенят</a>
+                </div>
+                <div class="price">
+                    <a href="">Ціна: 11₾</a>
+                </div>
+            </article>
+            <article class="product">
+                <div class="productimg">
+                    <img src="images/5.jpg" height="100px"/>
+                </div>
+                <br/>
+                <div class="catalogtext">
+                    <a href="">Profine для цуценят з ягням, 1кг</a>
+                </div>
+                <div class="price">
+                    <a href="">Ціна: 16.5₾</a>
+                </div>
+            </article>
+            <article class="product">
+                <div class="productimg">
+                    <img src="images/6.jpg" height="100px"/>
+                </div>
+                <br/>
+                <div class="catalogtext">
+                    <a href="">Profine для стерилізованих котів з куркою, 1кг</a>
+                </div>
+                <div class="price">
+                    <a href="">Ціна: 17.5₾</a>
+                </div>
+            </article>
+        </section>
+        <div class="button">
+            <a class="button">Детальніше</a>
+        </div>
+        <h2>Відео</h2>
+        <section class="center catalog">
+            <article>
+                <iframe height="656" src="https://www.youtube.com/embed/p-0knlCOEKI" title="Домашні тварини" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="656" src="https://www.youtube.com/embed/p-0knlCOEKI" title="Домашні тварини" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+        </section>
+        <h2 id="principles">Наші принципи</h2>
+        <section class="center principles">
+            <article class="principle">
+                <img src="https://backoffice.algoritmika.org/uploads/2021/02/chemistry-2389151_640_0_1612518875.png" width="50px" height="50px"/>
+                <p>Товари проходять медичний огляд</p>
+            </article>
+            <article class="principle">
+                <img src="https://backoffice.algoritmika.org/uploads/2021/02/truck-1918551_640_0_1612518875.png" width="80px" height="50px"/>
+                <p>Безкоштовна доставка</p>
+            </article>
+            <article class="principle">
+                <img src="https://backoffice.algoritmika.org/uploads/2021/02/icons-1831923_640_0_1612518875.png" width="50px" height="50px"/>
+                <p>Безкоштовна консультація</p>
+            </article>
+        </section>
+        <section class="question-answer">
+            <article class="qa-item">
+                <span class="question"><b>Які терміни доставки товарів?</b></span>
+                <p>Час доставки кур'єром від 3 днів до 2 тижнів.<br/> Можлива доставка до пункту самовивозу.</p>
+            </article>
+            <article class="qa-item">
+                <span class="question"><b>Чи можна повернути товар?</b></span>
+                <p>Повернення товару можливе не пізніше тижня після отримання.<br/> Їжа та ліки не підлягають поверненню.</p>
+            </article>
+            <article class="qa-item">
+                <span class="question"><b>Чи є у магазині ветеринар?</b></span>
+                <p>Так, терапевт надає безкоштовні консультації щодня з 10:00 до 17:00.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Email:</p>
+        <p>Телефон:</p>
+    </footer>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex
